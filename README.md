@@ -75,6 +75,15 @@ Check out a quick 2–3 min demo of the app:
 ---
 
 ## 🚀 How to Run Locally
+#### Prerequisites
+
+Install Flutter SDK
+
+Android Studio or VS Code with Flutter extension
+
+Emulator or physical Android/iOS device
+
+
 ##### Clone the repo:
 git clone https://github.com/RohitManvar/nous.git
 
@@ -87,4 +96,13 @@ flutter pub get
 ##### Run the app:
 flutter run
 
+## 📦 APK Installation
+
+To try the app without building:
+
+1.Download the latest APK from Release Section or direct 👉[Download Nous APK (Drive)](https://drive.google.com/drive/folders/1dLLIE2R9WNlyiL1nYajVG6av64Q3W3GI?usp=drive_link)
+
+2.Transfer it to your Android device.
+
+3.Open the APK file and install the app.
 
