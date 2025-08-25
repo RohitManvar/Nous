@@ -47,9 +47,15 @@ Users can:
 ---
 
 ## 🖼 Screenshots
-![Idea Submission](screenshots/MainScreen.png)  
-![Idea Listing](screenshots/ListenIdea.png)  
-![Leaderboard](screenshots/leadboard.png)  
+
+### Idea Submission Screen
+<img src="screenshots/MainScreen.png" width="300" alt="Idea Submission Screen">
+
+### Idea Listing Screen
+<img src="screenshots/ListenIdea.png" width="300" alt="Idea Listing Screen">
+
+### Leaderboard Screen
+<img src="screenshots/Leadboard.png" width="300" alt="Leaderboard Screen">
 
 ---
 
@@ -80,3 +86,4 @@ flutter pub get
 
 Run the app:
 flutter run
+
