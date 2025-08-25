@@ -61,7 +61,9 @@ Users can:
 
 ## 🎥 Video Walkthrough
 Check out a quick 2–3 min demo of the app:  
-[![Watch the video](https://youtube.com/shorts/9R3wrf1I1CA?feature=share)  
+<a href="https://youtu.be/9R3wrf1I1CA" target="_blank">
+  <img src="https://img.youtube.com/vi/9R3wrf1I1CA/hqdefault.jpg" width="200" alt="Watch the video">
+</a> 
 
 ---
 
@@ -105,5 +107,6 @@ To try the app without building:
 2.Transfer it to your Android device.
 
 3.Open the APK file and install the app.
+
 
 
