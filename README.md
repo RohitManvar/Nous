@@ -75,15 +75,16 @@ Check out a quick 2–3 min demo of the app:
 ---
 
 ## 🚀 How to Run Locally
-Clone the repo:
+##### Clone the repo:
 git clone https://github.com/RohitManvar/nous.git
 
-Navigate to project folder:
+##### Navigate to project folder:
 cd nous
 
-Get dependencies:
+##### Get dependencies:
 flutter pub get
 
-Run the app:
+##### Run the app:
 flutter run
+
 
