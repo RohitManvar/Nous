@@ -61,7 +61,7 @@ Users can:
 
 ## 🎥 Video Walkthrough
 Check out a quick 2–3 min demo of the app:  
-[![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://youtu.be/YOUR_VIDEO_ID)  
+[![Watch the video](https://youtube.com/shorts/9R3wrf1I1CA?feature=share)  
 
 ---
 
@@ -100,9 +100,10 @@ flutter run
 
 To try the app without building:
 
-1.Download the latest APK from Release Section or direct 👉[Download Nous APK (Drive)](https://drive.google.com/drive/folders/1dLLIE2R9WNlyiL1nYajVG6av64Q3W3GI?usp=drive_link)
+1.Download the latest APK from Release Section or direct 👉[Download Nous APK (GDrive)](https://drive.google.com/file/d/1YnKJn6uTOcQwPDmiJw1CnP1YSrEdlKIL/view?usp=drive_link)
 
 2.Transfer it to your Android device.
 
 3.Open the APK file and install the app.
+
 
