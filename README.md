@@ -87,7 +87,7 @@ Emulator or physical Android/iOS device
 
 
 ##### Clone the repo:
-git clone https://github.com/RohitManvar/nous.git
+git clone https://github.com/YOUR_USERNAME//nous.git
 
 ##### Navigate to project folder:
 cd nous
@@ -107,6 +107,7 @@ To try the app without building:
 2.Transfer it to your Android device.
 
 3.Open the APK file and install the app.
+
 
 
 
