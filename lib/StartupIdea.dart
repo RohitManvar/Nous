@@ -7,6 +7,7 @@ class StartupIdea {
   int votes;
   DateTime createdAt;
 
+
   StartupIdea({
     required this.id,
     required this.name,
@@ -41,3 +42,4 @@ class StartupIdea {
     );
   }
 }
+

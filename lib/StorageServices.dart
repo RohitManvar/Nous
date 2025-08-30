@@ -1,8 +1,19 @@
 import 'dart:convert';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'StartupIdea.dart';
+import 'AuthScreen.dart';
+import 'Auth.dart';
 
 class StorageServices {
+   static Future<List<AuthUser>> getAuthData(user) async {
+     SharedPreferences prefs = await SharedPreferences.getInstance();
+     String? authJson = prefs.getString('auth_data');
+     if (authJson == null) return [];
+
+     List<dynamic> authList = json.decode(authJson);
+     return authList.map((user) => AuthUser.fromJson(user)).toList();
+   }
+
   static Future<List<StartupIdea>> getIdeas() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     String? ideasJson = prefs.getString('startup_ideas');

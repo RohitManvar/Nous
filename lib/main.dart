@@ -1,9 +1,10 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:nous/AuthScreen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'MainScreen.dart';
-
+import 'AuthScreen.dart';
 void main() {
   runApp(const StartupApp());
 }
@@ -100,15 +101,7 @@ class _SplashScreenState extends State<SplashScreen>
 
     Timer(const Duration(seconds: 3), () {
       if (!mounted) return;
-      Navigator.pushReplacement(
-        context,
-        MaterialPageRoute(
-          builder: (_) => MainScreen(
-            toggleTheme: widget.toggleTheme,
-            isDarkMode: widget.isDarkMode,
-          ),
-        ),
-      );
+      Navigator.push(context, MaterialPageRoute(builder: (context) => AuthScreen(toggleTheme: toggleTheme, isDarkMode: isDarkMode)));
     });
   }
 

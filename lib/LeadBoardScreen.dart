@@ -154,7 +154,6 @@ class _LeaderboardScreenState extends State<LeaderboardScreen> {
                   Icon(Icons.emoji_events, size: 64, color: Colors.grey),
                   SizedBox(height: 16),
                   Text('No ideas to rank yet!', style: TextStyle(fontSize: 18, color: Colors.grey)),
-                  Text('Submit and vote for ideas to see the leaderboard', style: TextStyle(color: Colors.grey)),
                 ],
               ),
             )
